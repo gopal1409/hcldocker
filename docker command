@@ -1,0 +1,3 @@
+ 21  docker container run --publish 80:80 --detach nginx
+   22  docker ps
+   23  docker images
