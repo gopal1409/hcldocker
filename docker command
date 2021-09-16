@@ -6,4 +6,15 @@
     27  docker run -p 81:80 -d --name webhost httpd
    28  docker ps
    docker run -p 82:80 -d --name webhost1 httpd
+    43  docker ps
+   44  docker top webhost
+   45  ps aux
+   46  docker top webhost
+   47  kill -9 14992
+   48  docker ps
+   49  docker ps -a
+   50  docker start 723
+   51  docker ps
+   52  history
+
 
